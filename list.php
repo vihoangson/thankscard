@@ -83,7 +83,7 @@ preg_match_all($regex, $content, $matches);
 		
 	<div class="" >
 		
-		<h1>CBA Members</h1>
+		<h1>Lampart Members</h1>
 
 		<form method="get" action="list.php">
 			<label>Filter:</label>

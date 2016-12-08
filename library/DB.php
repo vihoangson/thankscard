@@ -89,7 +89,7 @@ class DB {
 	}
 	
 	// 
-	function db_num_rows($rs) {
+	function db_num_rows($rs) { 
 		return mysqli_num_rows($rs);
 	}
 	

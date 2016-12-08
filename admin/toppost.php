@@ -44,7 +44,7 @@ $users = $db->fetchAll($rs);
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <body>
 
-<h1>CBA Members</h1>
+<h1>Lampart Members</h1>
 
 <p>List top post member</p>
 [<a href="/admin/toppost.php">ALL</a>] [<a href="?year=2014">2014</a>] [<a href="?year=2015">2015</a>]

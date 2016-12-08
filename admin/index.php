@@ -17,7 +17,7 @@ if(isset($_POST["login_id"])) {
 	if($_POST["password"] == "") {
 		$errors[] = "please enter password";
 	}
-	$pw = hash("sha256", $_POST["password"]);
+	$pw = 	md5($_POST["password"]);
 	$sql = "SELECT * FROM admin WHERE admin_login = '" . $db->db_escape_string($_POST["login_id"]) . 
 										"' AND admin_password = '" . $pw . "'";
 	$rs = $db->db_query($sql);

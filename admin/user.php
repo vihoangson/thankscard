@@ -129,7 +129,7 @@ $users = $db->fetchAll($rs);
   </script>
 <body>
 
-<h1>CBA Members</h1>
+<h1>Lampart Members</h1>
 
 <p>List members</p>
 
