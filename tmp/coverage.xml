@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1481181580">
+  <project timestamp="1481181580">
+    <file name="D:\xampp\htdocs\vhosts\thankscard\library/DB.php">
+      <class name="DB" namespace="global">
+        <metrics complexity="23" methods="11" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="50" coveredstatements="0" elements="61" coveredelements="0"/>
+      </class>
+      <line num="9" type="method" name="__construct" visibility="public" complexity="2" crap="6" count="0"/>
+      <line num="11" type="stmt" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="19" type="method" name="db_connect_error" visibility="public" complexity="2" crap="6" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <line num="30" type="method" name="db_connect" visibility="public" complexity="8" crap="72" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="37" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="40" type="stmt" count="0"/>
+      <line num="41" type="stmt" count="0"/>
+      <line num="42" type="stmt" count="0"/>
+      <line num="45" type="stmt" count="0"/>
+      <line num="46" type="stmt" count="0"/>
+      <line num="48" type="stmt" count="0"/>
+      <line num="49" type="stmt" count="0"/>
+      <line num="52" type="stmt" count="0"/>
+      <line num="54" type="stmt" count="0"/>
+      <line num="55" type="stmt" count="0"/>
+      <line num="56" type="stmt" count="0"/>
+      <line num="59" type="stmt" count="0"/>
+      <line num="61" type="stmt" count="0"/>
+      <line num="65" type="method" name="db_escape_string" complexity="1" crap="2" count="0"/>
+      <line num="67" type="stmt" count="0"/>
+      <line num="71" type="method" name="db_query" complexity="2" crap="6" count="0"/>
+      <line num="72" type="stmt" count="0"/>
+      <line num="73" type="stmt" count="0"/>
+      <line num="74" type="stmt" count="0"/>
+      <line num="75" type="stmt" count="0"/>
+      <line num="77" type="stmt" count="0"/>
+      <line num="81" type="method" name="fetch_array" complexity="1" crap="2" count="0"/>
+      <line num="82" type="stmt" count="0"/>
+      <line num="87" type="method" name="selectrow_array" complexity="1" crap="2" count="0"/>
+      <line num="88" type="stmt" count="0"/>
+      <line num="92" type="method" name="db_num_rows" complexity="1" crap="2" count="0"/>
+      <line num="93" type="stmt" count="0"/>
+      <line num="97" type="method" name="LastValue" complexity="1" crap="2" count="0"/>
+      <line num="98" type="stmt" count="0"/>
+      <line num="99" type="stmt" count="0"/>
+      <line num="104" type="method" name="fetchAll" complexity="2" crap="6" count="0"/>
+      <line num="105" type="stmt" count="0"/>
+      <line num="106" type="stmt" count="0"/>
+      <line num="107" type="stmt" count="0"/>
+      <line num="108" type="stmt" count="0"/>
+      <line num="109" type="stmt" count="0"/>
+      <line num="112" type="method" name="executeFetchAll" complexity="2" crap="6" count="0"/>
+      <line num="113" type="stmt" count="0"/>
+      <line num="114" type="stmt" count="0"/>
+      <line num="115" type="stmt" count="0"/>
+      <line num="116" type="stmt" count="0"/>
+      <line num="117" type="stmt" count="0"/>
+      <line num="118" type="stmt" count="0"/>
+      <metrics loc="120" ncloc="97" classes="1" methods="11" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="50" coveredstatements="0" elements="61" coveredelements="0"/>
+    </file>
+    <file name="D:\xampp\htdocs\vhosts\thankscard\library/emotion.php">
+      <class name="Emotion" namespace="global">
+        <metrics complexity="3" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+      </class>
+      <line num="53" type="method" name="add_emotion" visibility="public" complexity="3" crap="12" count="0"/>
+      <line num="55" type="stmt" count="0"/>
+      <line num="56" type="stmt" count="0"/>
+      <line num="57" type="stmt" count="0"/>
+      <line num="58" type="stmt" count="0"/>
+      <metrics loc="60" ncloc="-17" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="5" coveredelements="0"/>
+    </file>
+    <metrics files="2" loc="180" ncloc="80" classes="2" methods="12" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="54" coveredstatements="0" elements="66" coveredelements="0"/>
+  </project>
+</coverage>

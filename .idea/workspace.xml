@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="196ac041-39f2-4064-9ee3-25edd2511aed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/DB_Thankscard.zip" afterPath="$PROJECT_DIR$/config/DB_Thankscard.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/edit.php" afterPath="$PROJECT_DIR$/admin/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/toppost.php" afterPath="$PROJECT_DIR$/admin/toppost.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/user.php" afterPath="$PROJECT_DIR$/admin/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list.php" afterPath="$PROJECT_DIR$/list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpunit2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/coverage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/logfile.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/logfile.tap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/logfile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/DB.php.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/css/nv.d3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/dashboard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/emotion.php.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/d3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/holder.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/html5shiv.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/nv.d3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/testdox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/testdox.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/library/testDB.php" afterPath="$PROJECT_DIR$/test/library/testDB.php" />
     </list>
     <ignored path="thankscard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,6 +45,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/thankscard$phpunit_xml.coverage" NAME="phpunit.xml Coverage Results" MODIFIED="1481178325079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -28,42 +57,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="list.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/list.php">
+      <file leaf-file-name="testDB.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/library/testDB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="111" column="93" selection-start-line="111" selection-start-column="93" selection-end-line="111" selection-end-column="93" />
+            <state relative-caret-position="267">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
               <folding>
-                <marker date="1481173045009" expanded="true" signature="972:1482" placeholder="SELECT *, (S... user" />
-                <marker date="1481173045009" expanded="true" signature="983:1078" placeholder="SELECT COUNT... comment" />
-                <marker date="1481173045009" expanded="true" signature="1100:1269" placeholder="SELECT COUNT... comment" />
+                <marker date="1481182783859" expanded="true" signature="619:637" placeholder="SELECT * FRO... user" />
+                <marker date="1481182783859" expanded="true" signature="619:640" placeholder="SELECT * FRO... user" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/edit.php">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <marker date="1481172986048" expanded="true" signature="310:345" placeholder="SELECT * FRO... user" />
-                <marker date="1481172986048" expanded="true" signature="1297:1422" placeholder="UPDATE user " />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/user.php">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="188" column="68" selection-start-line="188" selection-start-column="60" selection-end-line="188" selection-end-column="68" />
+            <state relative-caret-position="27">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/DB.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="34" />
               <folding>
-                <marker date="1481172076562" expanded="true" signature="1665:1747" placeholder="SELECT *, (S... " />
-                <marker date="1481172076562" expanded="true" signature="4057:4066" placeholder="..." />
-                <marker date="1481172076562" expanded="true" signature="5354:5385" placeholder="..." />
+                <marker date="1481163620201" expanded="true" signature="265:445" placeholder="SELECT * FRO... user" />
               </folding>
             </state>
           </provider>
@@ -82,11 +125,14 @@
         <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/config/config.php" />
         <option value="$PROJECT_DIR$/admin/create.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/admin/toppost.php" />
         <option value="$PROJECT_DIR$/admin/user.php" />
         <option value="$PROJECT_DIR$/admin/edit.php" />
         <option value="$PROJECT_DIR$/list.php" />
+        <option value="$PROJECT_DIR$/phpunit2.xml" />
+        <option value="$PROJECT_DIR$/phpunit.xml" />
+        <option value="$PROJECT_DIR$/test/library/testDB.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -101,7 +147,7 @@
       <server host="thankscard.vn" id="5b97b418-2f49-4de4-813b-5a6ab823150d" name="thankscard.vn" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1420" />
     <option name="y" value="-469" />
@@ -163,7 +209,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="library" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -172,12 +218,33 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.phpunit" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.TestDB.testFetchArray">
+    <configuration default="false" name="TestDB (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="TestDB" file="$PROJECT_DIR$/test/library/testDB.php" scope="Class" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestDB.testConnection" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="TestDB" file="$PROJECT_DIR$/test/library/testDB.php" method="testConnection" scope="Method" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestDB.testFetchArray" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="TestDB" file="$PROJECT_DIR$/test/library/testDB.php" method="testFetchArray" scope="Method" />
+      <method />
+    </configuration>
+    <configuration default="false" name="thankscard" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/test" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -202,6 +269,22 @@
       <envs />
       <method />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.TestDB (1)" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.TestDB.testConnection" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.TestDB.testFetchArray" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.thankscard" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.test" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.TestDB.testFetchArray" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.test" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.thankscard" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.TestDB (1)" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.TestDB.testConnection" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -213,12 +296,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481163677210</updated>
-      <workItem from="1481163678812" duration="9676000" />
+      <workItem from="1481163678812" duration="15036000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestDB_(1) - 2016.12.08 at 14h 38m 12s.xml">
+      <configuration name="TestDB (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestDB_testFetchArray - 2016.12.08 at 14h 38m 16s.xml">
+      <configuration name="TestDB.testFetchArray" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestDB_testFetchArray - 2016.12.08 at 14h 38m 28s.xml">
+      <configuration name="TestDB.testFetchArray" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestDB_testFetchArray - 2016.12.08 at 14h 39m 21s.xml">
+      <configuration name="TestDB.testFetchArray" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestDB_testFetchArray - 2016.12.08 at 14h 39m 31s.xml">
+      <configuration name="TestDB.testFetchArray" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestDB_testFetchArray - 2016.12.08 at 14h 39m 45s.xml">
+      <configuration name="TestDB.testFetchArray" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestDB_testFetchArray - 2016.12.08 at 14h 53m 36s.xml">
+      <configuration name="TestDB.testFetchArray" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestDB_testFetchArray - 2016.12.08 at 14h 54m 19s.xml">
+      <configuration name="TestDB.testFetchArray" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test - 2016.12.08 at 14h 53m 53s.xml">
+      <configuration name="test" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="thankscard - 2016.12.08 at 14h 53m 44s.xml">
+      <configuration name="thankscard" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9676000" />
+    <option name="totallyTimeSpent" value="15036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1420" y="-469" width="1874" height="1096" extended-state="6" />
@@ -230,11 +345,12 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41640705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33437175" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33437175" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -242,6 +358,26 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25303197" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33437175" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -275,17 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="36" />
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="35" />
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="39" />
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/emotion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -314,22 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -347,16 +456,6 @@
           <folding>
             <marker date="1481163619970" expanded="true" signature="314:394" placeholder="SELECT * FRO... user" />
             <marker date="1481163619970" expanded="true" signature="482:582" placeholder="UPDATE user " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <marker date="1481163620201" expanded="true" signature="265:445" placeholder="SELECT * FRO... user" />
           </folding>
         </state>
       </provider>
@@ -393,14 +492,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/user.php">
+    <entry file="file://$PROJECT_DIR$/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="188" column="68" selection-start-line="188" selection-start-column="60" selection-end-line="188" selection-end-column="68" />
+        <state relative-caret-position="-1279">
+          <caret line="117" column="35" selection-start-line="117" selection-start-column="35" selection-end-line="117" selection-end-column="35" />
           <folding>
-            <marker date="1481172076562" expanded="true" signature="1665:1747" placeholder="SELECT *, (S... " />
-            <marker date="1481172076562" expanded="true" signature="4057:4066" placeholder="..." />
-            <marker date="1481172076562" expanded="true" signature="5354:5385" placeholder="..." />
+            <marker date="1481173045009" expanded="true" signature="972:1482" placeholder="SELECT *, (S... user" />
+            <marker date="1481173045009" expanded="true" signature="983:1078" placeholder="SELECT COUNT... comment" />
+            <marker date="1481173045009" expanded="true" signature="1100:1269" placeholder="SELECT COUNT... comment" />
           </folding>
         </state>
       </provider>
@@ -416,15 +515,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list.php">
+    <entry file="file://$PROJECT_DIR$/admin/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="111" column="93" selection-start-line="111" selection-start-column="93" selection-end-line="111" selection-end-column="93" />
+        <state relative-caret-position="185">
+          <caret line="188" column="68" selection-start-line="188" selection-start-column="60" selection-end-line="188" selection-end-column="68" />
           <folding>
-            <marker date="1481173045009" expanded="true" signature="972:1482" placeholder="SELECT *, (S... user" />
-            <marker date="1481173045009" expanded="true" signature="983:1078" placeholder="SELECT COUNT... comment" />
-            <marker date="1481173045009" expanded="true" signature="1100:1269" placeholder="SELECT COUNT... comment" />
+            <marker date="1481172076562" expanded="true" signature="1665:1747" placeholder="SELECT *, (S... " />
+            <marker date="1481172076562" expanded="true" signature="4057:4066" placeholder="..." />
+            <marker date="1481172076562" expanded="true" signature="5354:5385" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <marker date="1481163620201" expanded="true" signature="265:445" placeholder="SELECT * FRO... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/library/testDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <marker date="1481182783859" expanded="true" signature="619:637" placeholder="SELECT * FRO... user" />
+            <marker date="1481182783859" expanded="true" signature="619:640" placeholder="SELECT * FRO... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,14 @@
+TAP version 13
+ok 1 - TestDB::testFetchArray
+# Array
+# (
+#     [user_id] => 1
+#     [user_eid] => 5135623623
+#     [user_nick_name] => son
+#     [user_img] => IMG_0444.jpg.jpg
+#     [user_gwid] => 23474567
+#     [user_reg_datetime] => 2016-12-08 09:44:41
+#     [active] => 1
+# )
+# 123
+1..1

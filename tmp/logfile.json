@@ -1,0 +1,18 @@
+{
+    "event": "suiteStart",
+    "suite": "TestDB",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "TestDB",
+    "test": "TestDB::testFetchArray"
+}{
+    "event": "test",
+    "suite": "TestDB",
+    "test": "TestDB::testFetchArray",
+    "status": "pass",
+    "time": 0.0073699951171875,
+    "trace": [],
+    "message": "",
+    "output": "Array\n(\n    [user_id] => 1\n    [user_eid] => 5135623623\n    [user_nick_name] => son\n    [user_img] => IMG_0444.jpg.jpg\n    [user_gwid] => 23474567\n    [user_reg_datetime] => 2016-12-08 09:44:41\n    [active] => 1\n)\n123"
+}

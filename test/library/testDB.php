@@ -1,30 +1,34 @@
 <?php
 require_once dirname(__FILE__) . "/../../library/DB.php";
 require_once dirname(__FILE__) . "/../../config/config.php";
-Class TestDB extends PHPUnit_Framework_TestCase 
+Class TestDB extends PHPUnit_Framework_TestCase
 {
 	public $DB;
-	
-	public function setUp ()
+
+	public function setUp()
 	{
-		$info = array (
-			"hostname" 		=> HOSTNAME,
-			"db_name"		=> DB_NAME,
-			"db_user"		=> DB_USER,
-			"db_pass"		=> DB_PASSWORD,
-		);
-		$con = mysqli_connect($info["hostname"], $info["db_user"], $info["db_pass"], $info["db_name"]);
-		//var_dump($con);
-		$this->DB = new DB($con);
 	}
-	
-	public function testConnection ()
+
+	public function testConnection()
 	{
-		
+		$this->assertTrue(defined("HOSTNAME"));
+		$this->assertTrue(defined("DB_USER"));
+		$this->assertTrue(defined("DB_PASSWORD"));
+		$this->assertTrue(defined("DB_NAME"));
 	}
-	
-	public function testFetchArray ()
+
+	public function testFetchArray()
 	{
-			
+		$db = new DB;
+		$host="localhost";
+		$user="root";
+		$pass="";
+		$db_name="thankscard";
+		$db->db_connect ($host, $user, $pass, $db_name);
+		$sql = "SELECT * FROM user ";
+		$rs = $db->db_query($sql);
+		$user = $db->fetch_array($rs);
+		print_r($user);
+		echo 123;
 	}
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="TestDB" file="D:\xampp\htdocs\vhosts\thankscard\test\library\testDB.php" tests="1" assertions="0" failures="0" errors="0" time="0.007370">
+    <testcase name="testFetchArray" class="TestDB" file="D:\xampp\htdocs\vhosts\thankscard\test\library\testDB.php" line="20" assertions="0" time="0.007370">
+      <system-out>Array
+(
+    [user_id] =&gt; 1
+    [user_eid] =&gt; 5135623623
+    [user_nick_name] =&gt; son
+    [user_img] =&gt; IMG_0444.jpg.jpg
+    [user_gwid] =&gt; 23474567
+    [user_reg_datetime] =&gt; 2016-12-08 09:44:41
+    [active] =&gt; 1
+)
+123</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
