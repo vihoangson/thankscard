@@ -186,6 +186,7 @@ if($error) {
 					echo "<td>{$user['user_eid']}</td>";
 					echo "<td>{$user['user_nick_name']}</td>";
 					echo "<td>{$user['last_comment']}</td>";
+					echo "<td><img src='".PATH_IMG."{$user['user_img']}' width='100' onError='this.src=\"http://placehold.it/200x200\"'></td>";
 					echo "<td>{$user['thank_in_month']}</td>";
 					echo "<td>";
 					echo "";

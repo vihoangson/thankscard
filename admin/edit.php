@@ -29,7 +29,17 @@ if(isset($_POST["id"])){
     $p_nickname = $db->db_escape_string($_POST["name"]);
     $p_gwid = $db->db_escape_string($_POST["gwid"]);
 
-    $sql = "UPDATE user SET user_eid = '{$p_eid}', user_nick_name = '{$p_nickname}', user_gwid = '{$p_gwid}' WHERE user_id=" . $p_id;
+    if($_FILES["user_image"]["tmp_name"]){
+        $extention_file = preg_match("/\.([a-z])+$/",$_FILES["user_image"]["name"],$match);
+        $file_name = $user_eid.$match[0];
+        move_uploaded_file($_FILES["user_image"]["tmp_name"],"../images/".$file_name);
+        $file_name = "user_img = '{$file_name}'";
+    }else{
+        $file_name = "user_img = ''";
+    }
+    print_r($file_name);
+
+    $sql = "UPDATE user SET user_eid = '{$p_eid}', user_nick_name = '{$p_nickname}', user_gwid = '{$p_gwid}' , {$file_name} WHERE user_id=" . $p_id;
     $db->db_query($sql);
     header("Location: ../admin/user.php");
 }
@@ -39,11 +49,12 @@ if(isset($_POST["id"])){
 <body>
     <h1><?php echo $name ?>'s information</h1>
     <div style="margin:0px 0px 0px 0px;">
-        <form id="userIn" action="../admin/edit.php" method="POST" onsubmit="return formValidator()">
+        <form id="userIn" action="../admin/edit.php" method="POST" onsubmit="return formValidator()"enctype="multipart/form-data">
             <input type="hidden" name="id" id="id" value="<?php echo $id ?>" style="margin:0px 0px 0px 48px;"></input>
             <span>User EID:</span><input type="text" name="eid" id="eid" style="margin:5px 0px 0px 38px;" value="<?php echo $eid;?>" ></input></br>
             <span>Nickname:</span><input type="text" name="name" id="name" style="margin:5px 0px 0px 35px;" value="<?php echo $name;?>"></input></br>
             <span>GWID:</span><input type="text" name="gwid" id="gwid" style="margin:5px 0px 0px 35px;" value="<?php echo $gwid;?>"></input></br>
+            <p><span>IMG:</span><input type="file" name="user_image"></p>
             <input type="submit" id="submit" value="Submit" style="margin:25px 0px 0px 35px;"></input>
         </form>
     </div>
