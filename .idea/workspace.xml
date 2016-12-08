@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="196ac041-39f2-4064-9ee3-25edd2511aed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpunit2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/coverage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/logfile.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/logfile.tap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/logfile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/DB.php.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/css/nv.d3.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/dashboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/emotion.php.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/d3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/holder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/html5shiv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/nv.d3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/report/js/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/testdox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/testdox.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/library/testDB.php" afterPath="$PROJECT_DIR$/test/library/testDB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_msg.php" afterPath="$PROJECT_DIR$/add_msg.php" />
     </list>
     <ignored path="thankscard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,12 +51,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
               <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_msg.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/add_msg.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
+              <folding>
+                <marker date="1481184354093" expanded="true" signature="355:474" placeholder="INSERT INTO message... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,6 +116,7 @@
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/test/library/testDB.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/add_msg.php" />
       </list>
     </option>
   </component>
@@ -296,7 +280,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481163677210</updated>
-      <workItem from="1481163678812" duration="15036000" />
+      <workItem from="1481163678812" duration="15146000" />
     </task>
     <servers />
   </component>
@@ -333,7 +317,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15036000" />
+    <option name="totallyTimeSpent" value="15146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1420" y="-469" width="1874" height="1096" extended-state="6" />
@@ -425,16 +409,6 @@
           <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
             <marker date="1481163620198" expanded="true" signature="255:401" placeholder="SELECT * FRO... message" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add_msg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <marker date="1481163619969" expanded="true" signature="344:463" placeholder="INSERT INTO message... " />
           </folding>
         </state>
       </provider>
@@ -585,6 +559,16 @@
         <state relative-caret-position="27">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_msg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <marker date="1481184354093" expanded="true" signature="355:474" placeholder="INSERT INTO message... " />
+          </folding>
         </state>
       </provider>
     </entry>
