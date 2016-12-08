@@ -47,7 +47,7 @@ $users = $db->fetchAll($rs);
 <h1>Lampart Members</h1>
 
 <p>List top post member</p>
-[<a href="/admin/toppost.php">ALL</a>] [<a href="?year=2014">2014</a>] [<a href="?year=2015">2015</a>]
+[<a href="/admin/toppost.php">ALL</a>] [<a href="?year=2014">2014</a>] [<a href="?year=2015">2015</a>] [<a href="?year=2016">2016</a>]
 <table border="1" cellpadding="10">
 	<thead>
 		<th>EID </th>

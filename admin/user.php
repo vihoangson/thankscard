@@ -144,7 +144,7 @@ if($enddate){
 }
 ?>
 
-[<a href="?year=2014&debug=1">2014</a>] [<a href="?year=2015&debug=1">2015</a>] <br>
+[<a href="?year=2014">2014</a>] [<a href="?year=2015">2015</a>] [<a href="?year=2016">2016</a>] <br>
 
 
 [<a href="/admin/user.php">ALL</a>]

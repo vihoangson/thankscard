@@ -109,7 +109,7 @@ preg_match_all($regex, $content, $matches);
 			for ($i=0; $i < count($users) ; $i++) {
 				if (($i%2)==0) {
 
-					$img = "<img class='img_avatar' src='PATH_IMG{$users[$i]['user_gwid']}.jpg' width='40' height='55' />";
+					$img = "<img class='img_avatar' src='".PATH_IMG."{$users[$i]['user_img']}' width='40' height='55' />";
 					Emotion::add_emotion($users[$i]['last_comment']);
 					echo "<tr>";
 						echo "<td>{$users[$i]['user_eid']}</td>";
@@ -144,7 +144,7 @@ preg_match_all($regex, $content, $matches);
 			for ($i=0; $i < count($users); $i++) { 
 				if (($i%2)==1) {
 
-					$img = "<img class='img_avatar' src='https://group.cybridge.jp/img/user/user_{$users[$i]['user_gwid']}.jpg' width='40' height='55' />";
+					$img = "<img class='img_avatar' src='".PATH_IMG."{$users[$i]['user_img']}' width='40' height='55' />";
 					Emotion::add_emotion($users[$i]['last_comment']);
 					echo "<tr>";
 						echo "<td>{$users[$i]['user_eid']}</td>";

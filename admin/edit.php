@@ -31,15 +31,15 @@ if(isset($_POST["id"])){
 
     if($_FILES["user_image"]["tmp_name"]){
         $extention_file = preg_match("/\.([a-z])+$/",$_FILES["user_image"]["name"],$match);
-        $file_name = $user_eid.$match[0];
+        $file_name = $_FILES["user_image"]["name"].$user_eid.$match[0];
         move_uploaded_file($_FILES["user_image"]["tmp_name"],"../images/".$file_name);
-        $file_name = "user_img = '{$file_name}'";
+        $file_name = ", user_img = '{$file_name}'";
     }else{
-        $file_name = "user_img = ''";
+        $file_name = "";
     }
     print_r($file_name);
 
-    $sql = "UPDATE user SET user_eid = '{$p_eid}', user_nick_name = '{$p_nickname}', user_gwid = '{$p_gwid}' , {$file_name} WHERE user_id=" . $p_id;
+    $sql = "UPDATE user SET user_eid = '{$p_eid}', user_nick_name = '{$p_nickname}', user_gwid = '{$p_gwid}'  {$file_name} WHERE user_id=" . $p_id;
     $db->db_query($sql);
     header("Location: ../admin/user.php");
 }
