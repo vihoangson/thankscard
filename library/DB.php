@@ -71,7 +71,7 @@ class DB {
 	function db_query($sql) {
 		$rs = mysqli_query($this->connection, $sql);
 		if ($rs === FALSE) {
-			print("sql:".$sql."<Br>".mysql_error());
+			// print("sql:".$sql."<Br>".mysql_error());
 			exit;
 		}
 		return $rs;
